@@ -16,7 +16,7 @@ namespace N_Puzzle_Game
 
         bool is_goal_done = false;
         string goal { set; get; }
-
+        //testing github
         private trie visited;
         public Stack<string> solution = new Stack<string>();
         Queue<bfs_node> q = new Queue<bfs_node>();
